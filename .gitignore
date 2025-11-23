@@ -1,0 +1,13 @@
+# Sanal Ortam
+venv/
+.env
+
+# Mac Gereksiz Dosyaları
+.DS_Store
+
+# Jupyter Notebook Önbelleği
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Veri (İsteğe bağlı, ama genelde veri GitHub'a atılmaz, link verilir. Şimdilik küçük diye kalsın)
+# Titanic-Dataset.csv
