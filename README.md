@@ -31,12 +31,24 @@ Based on the analysis, the following patterns were observed:
 └── requirements.txt         # List of dependencies
 
 How to Run the Project
+Follow these steps to set up and run the project locally:
 
 1. Clone the Repository
 
 Bash
 git clone [https://github.com/Lostraci/titanic-eda-analysis.git](https://github.com/Lostraci/titanic-eda-analysis.git)
 cd titanic-eda-analysis
+
+2. Create a Virtual Environment (Optional but Recommended)
+
+Bash
+# For Mac/Linux
+python3 -m venv venv
+source venv/bin/activate
+
+# For Windows
+python -m venv venv
+venv\Scripts\activate
 
 Aga, haklısın. O yarım kalmış haliyle GitHub'da "profesyonel" durmaz. Senin için bölümleri tam, komutları doğru ve görüntüsü şık (emojili, maddeli) bir README hazırladım.
 
@@ -82,7 +94,6 @@ Follow these steps to set up and run the project locally:
 Bash
 git clone [https://github.com/Lostraci/titanic-eda-analysis.git](https://github.com/Lostraci/titanic-eda-analysis.git)
 cd titanic-eda-analysis
-
 2. Create a Virtual Environment (Optional but Recommended)
 
 Bash
@@ -93,15 +104,14 @@ source venv/bin/activate
 # For Windows
 python -m venv venv
 venv\Scripts\activate
-
 3. Install Dependencies
 
 Bash
 pip install -r requirements.txt
-
 4. Run the Notebook
 
 Open the .ipynb file in VS Code or launch Jupyter Notebook:
 
 Bash
 jupyter notebook ilk_eda_projem.ipynb
+
